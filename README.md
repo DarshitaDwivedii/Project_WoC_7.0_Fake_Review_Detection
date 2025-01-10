@@ -24,7 +24,7 @@ In the era of online shopping, reviews play a significant role in influencing co
 🔍 **Exploratory Data Analysis (EDA)**  
 📄 **Text Preprocessing and Cleaning**  
 📊 **TF-IDF Text Vectorization**  
-🤖 **Machine Learning Models** for classification  
+<!-- 🤖 **Machine Learning Models** for classification   -->
 
 ---
 
