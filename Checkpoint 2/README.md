@@ -8,9 +8,10 @@ This folder contains the code and resources for **model training** in the Fake R
 
 ### 📋 Contents:
 - `model_training.py`: The main Python script for training and evaluating multiple machine learning models.
-- `random_forest_model.pkl`: Serialized Random Forest model for later use.
-- `svm_model.pkl`: Serialized Support Vector Machine (SVM) model for later use.
-- `logistic_regression_model.pkl`: Serialized Logistic Regression model for later use.
+- `Models.zip`: Zip file contains the following: 
+   - `random_forest_model.pkl`: Serialized Random Forest model for later use.
+   - `svm_model.pkl`: Serialized Support Vector Machine (SVM) model for later use.
+   - `logistic_regression_model.pkl`: Serialized Logistic Regression model for later use.
 
 ---
 
