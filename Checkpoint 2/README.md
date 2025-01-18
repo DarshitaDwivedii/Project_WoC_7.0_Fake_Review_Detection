@@ -43,5 +43,8 @@ This folder contains the code and resources for **model training** in the Fake R
 
 ## 🧪 Results
 
-Each model is evaluated, and the results (Accuracy, Precision, Recall, F1 Score) are logged to compare performance and identify the best-performing model.
+- **SVM** outperformed all models with the highest accuracy of **86.70%**, achieving a well-balanced **Precision** of **86.65%**, **Recall** of **87.33%**, and **F1 Score** of **86.99%**.
+- **Logistic Regression** followed closely with an accuracy of **84.09%**, showing a solid performance with **Precision** of **84.68%**, **Recall** of **83.92%**, and **F1 Score** of **84.30%**.
+- **Random Forest** had a slightly lower accuracy of **83.26%**, with **Precision** of **85.53%**, **Recall** of **80.78%**, and **F1 Score** of **83.09%**.
 
+In conclusion, **SVM** is the best model in terms of overall performance for this dataset.
