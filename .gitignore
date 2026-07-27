@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# MLflow / training artifacts
+mlflow.db
+mlruns/
+checkpoints_tmp/
+
+# Fine-tuned transformer model (large — don't push to git)
+models/distilbert_fake_review/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/

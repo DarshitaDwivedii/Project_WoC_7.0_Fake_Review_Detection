@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Fake Review Detector</title>
+  <style>
+    body {
+      width: 300px;
+      font-family: Arial, sans-serif;
+      padding: 12px;
+      margin: 0;
+    }
+    h1 {
+      font-size: 15px;
+      margin: 0 0 8px;
+    }
+    textarea {
+      width: 100%;
+      height: 80px;
+      box-sizing: border-box;
+      font-family: inherit;
+      font-size: 13px;
+      padding: 6px;
+      resize: vertical;
+    }
+    button {
+      margin-top: 8px;
+      width: 100%;
+      padding: 8px;
+      background: #1a73e8;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    button:disabled {
+      background: #9db8e8;
+      cursor: default;
+    }
+    #result {
+      margin-top: 10px;
+      font-size: 13px;
+      padding: 8px;
+      border-radius: 6px;
+      display: none;
+    }
+    .fake { background: #fde2e1; color: #b3261e; }
+    .real { background: #e3f5e6; color: #1e7a35; }
+    .hint {
+      font-size: 11px;
+      color: #666;
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🔎 Fake Review Detector</h1>
+  <textarea id="reviewText" placeholder="Paste a review to check, or just browse Amazon — reviews are checked automatically."></textarea>
+  <button id="checkBtn">Check Review</button>
+  <div id="result"></div>
+  <div class="hint">Auto-scans review sections on Amazon product pages. Requires the backend API running at localhost:8000.</div>
+  <script src="popup.js"></script>
+</body>
+</html>

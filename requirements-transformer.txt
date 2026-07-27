@@ -1,0 +1,7 @@
+# Optional — only needed to run src/train_transformer.py / predict_transformer.py
+# Not installed in the sandbox this project was built in (no GPU there).
+# Install with: pip install -r requirements-transformer.txt
+torch
+transformers
+datasets
+evaluate

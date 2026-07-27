@@ -1,0 +1,21 @@
+.frd-badge {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 10px;
+  margin-bottom: 6px;
+  font-family: Arial, sans-serif;
+}
+
+.frd-fake {
+  background: #fde2e1;
+  color: #b3261e;
+  border: 1px solid #f5b7b3;
+}
+
+.frd-real {
+  background: #e3f5e6;
+  color: #1e7a35;
+  border: 1px solid #b7e3c1;
+}

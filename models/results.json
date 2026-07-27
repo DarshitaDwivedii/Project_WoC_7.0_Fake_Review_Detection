@@ -1,0 +1,113 @@
+{
+  "logistic_regression": {
+    "accuracy": 0.887721033757883,
+    "precision": 0.8863692383534632,
+    "recall": 0.8894385357407866,
+    "f1_score": 0.8879012345679013,
+    "confusion_matrix": [
+      [
+        3583,
+        461
+      ],
+      [
+        447,
+        3596
+      ]
+    ],
+    "train_time_sec": 0.8289527893066406,
+    "hyperparameters": {
+      "C": 1.0,
+      "max_iter": 1000,
+      "solver": "liblinear"
+    }
+  },
+  "linear_svm": {
+    "accuracy": 0.893409175219488,
+    "precision": 0.8926191063934831,
+    "recall": 0.8943853574078654,
+    "f1_score": 0.8935013590313813,
+    "confusion_matrix": [
+      [
+        3609,
+        435
+      ],
+      [
+        427,
+        3616
+      ]
+    ],
+    "train_time_sec": 0.7665917873382568,
+    "hyperparameters": {
+      "C": 1.0,
+      "max_iter": 2000
+    }
+  },
+  "random_forest": {
+    "accuracy": 0.8135278842586868,
+    "precision": 0.8557395453269716,
+    "recall": 0.7541429631461786,
+    "f1_score": 0.8017354719957928,
+    "confusion_matrix": [
+      [
+        3530,
+        514
+      ],
+      [
+        994,
+        3049
+      ]
+    ],
+    "train_time_sec": 10.708573818206787,
+    "hyperparameters": {
+      "n_estimators": 100,
+      "max_depth": 25,
+      "n_jobs": 2,
+      "random_state": 42
+    }
+  },
+  "naive_bayes": {
+    "accuracy": 0.862371707678991,
+    "precision": 0.8710739614994935,
+    "recall": 0.8506059856542172,
+    "f1_score": 0.8607183080966087,
+    "confusion_matrix": [
+      [
+        3535,
+        509
+      ],
+      [
+        604,
+        3439
+      ]
+    ],
+    "train_time_sec": 0.03203701972961426,
+    "hyperparameters": {
+      "alpha": 0.5
+    }
+  },
+  "xgboost": {
+    "accuracy": 0.8317052058859898,
+    "precision": 0.8599033816425121,
+    "recall": 0.7924808310660401,
+    "f1_score": 0.8248165787102587,
+    "confusion_matrix": [
+      [
+        3522,
+        522
+      ],
+      [
+        839,
+        3204
+      ]
+    ],
+    "train_time_sec": 48.31819224357605,
+    "hyperparameters": {
+      "n_estimators": 150,
+      "max_depth": 6,
+      "learning_rate": 0.1,
+      "eval_metric": "logloss",
+      "n_jobs": -1,
+      "random_state": 42
+    }
+  }
+}
